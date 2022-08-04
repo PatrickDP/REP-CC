@@ -4,7 +4,7 @@ Repositório contendo todas as atividades das disciplinas de programação prese
 
 Aqui será listado cada disciplina com os trabalhos desenvolvidos.
 
-1. Algoritmos e Programação.
-2. Algoritmos e Estrutura de Dados.
-3. Técnica de Busca e Ordenação.
-4. Processamento Digital de Imagens.
+1. Algoritmos e Programação (2019).
+2. Algoritmos e Estrutura de Dados (2020).
+3. Técnica de Busca e Ordenação (2022).
+4. Processamento Digital de Imagens (2022).
