@@ -1,0 +1,346 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Aug 18 18:40:38 2022
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\patri
+# environment
+LOCALAPPDATA = C:\Users\patri\AppData\Local
+# environment
+VSCODE_CWD = C:\Users\patri\AppData\Local\Programs\Microsoft VS Code
+# environment
+SYSTEMROOT = C:\Windows
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_36164_CBNOBOJHWLNZWHYQ
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# makefile (from 'makefile', line 16)
+MATH = -lm
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\patri\AppData\Roaming\Code\CachedData\da76f93349a72022ca4670c1b84860304616aaa2
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\patri\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\patri\OneDrive
+# makefile
+CURDIR := c:/Users/patri/OneDrive/Documentos/Facul/OSA/Atividade Pr�tica 1/Exemplo Simples
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 36164
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# makefile (from 'makefile', line 15)
+FLAGS = -Wall -Wextra -std=c++17 -pedantic-errors
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"99f206782a767a6d08ad4d4418aea476.pt-br","_translationsConfigFile":"C:\\Users\\patri\\AppData\\Roaming\\Code\\clp\\99f206782a767a6d08ad4d4418aea476.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\patri\\AppData\\Roaming\\Code\\clp\\99f206782a767a6d08ad4d4418aea476.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\patri\\AppData\\Roaming\\Code\\clp\\99f206782a767a6d08ad4d4418aea476.pt-br\\da76f93349a72022ca4670c1b84860304616aaa2","_corruptedFile":"C:\\Users\\patri\\AppData\\Roaming\\Code\\clp\\99f206782a767a6d08ad4d4418aea476.pt-br\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\patri
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+WINDIR = C:\Windows
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\patri\AppData\Local\Microsoft\WindowsApps;C:\Users\patri\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;\mingw64\bin;C:\msys64\mingw64\bin;C:\Users\patri\AppData\Roaming\npm;C:\Users\patri\AppData\Local\GitHubDesktop\bin
+# environment
+COMPUTERNAME = LEPATRI
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PROMPT = $P$G
+# makefile (from 'makefile', line 13)
+MAIN = main
+# environment
+LOGONSERVER = \\LEPATRI
+# environment
+USERNAME = patri
+# environment
+COMMONPROGRAMFILES = C:\Program Files\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from 'makefile', line 14)
+OBJECTS = $(MAIN).o funcoes.o
+# environment
+USERDOMAIN = LEPATRI
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := all
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = LEPATRI
+# environment
+NUMBER_OF_PROCESSORS = 12
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\patri\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = AMD64
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\patri\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\582eaa284bb52592aa51d8a6b374cabf-1.70.0-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# makefile (from 'makefile', line 17)
+DEBUG = -g
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_ 
+REVISION = 6801
+# makefile (from 'makefile', line 18)
+CC = g++
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD
+# variable set hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=8/131=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Users/patri/OneDrive/Documentos/Facul/OSA/Atividade Pr�tica 1/Exemplo Simples, mtime 1660050380): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+main.exe: main.o funcoes.o
+#  Implicit rule search has not been done.
+#  Last modified 2022-08-09 10:06:20
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+#  recipe to execute (from 'makefile', line 25):
+	$(CC) $(OBJECTS) -o $(MAIN).exe $(FLAGS)
+
+# Not a target:
+funcoes.h:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 09:46:14
+#  File has been updated.
+#  Successfully updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 38):
+	del /q /f $(OBJECTS)
+	del /q /f *.exe
+
+# Not a target:
+funcoes.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 09:46:14
+#  File has been updated.
+#  Successfully updated.
+
+funcoes.o: funcoes.cpp funcoes.h
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 33):
+	$(CC) -c funcoes.cpp -o funcoes.o $(FLAGS)
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: main.exe
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/7=0%
+
+run: all
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 44):
+	./$(MAIN).exe
+
+# Not a target:
+main.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 10:06:18
+#  File has been updated.
+#  Successfully updated.
+
+main.o: main.cpp funcoes.cpp funcoes.h
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := main.o
+# automatic
+# * := 
+# automatic
+# < := main.cpp
+# automatic
+# + := main.cpp funcoes.cpp funcoes.h
+# automatic
+# % := 
+# automatic
+# ^ := main.cpp funcoes.cpp funcoes.h
+# automatic
+# ? := main.cpp funcoes.cpp funcoes.h
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=2/15=13%
+#  recipe to execute (from 'makefile', line 29):
+	$(CC) -c $(MAIN).cpp -o $(MAIN).o $(FLAGS)
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-09 07:26:38
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=12/1024=1%, Rehash=0, Collisions=0/36=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 15 / storage = 112 B / avg = 7 B
+# current buf: size = 8162 B / used = 112 B / count = 15 / avg = 7 B
+
+# strcache performance: lookups = 37 / hit rate = 59%
+# hash-table stats:
+# Load=15/8192=0%, Rehash=0, Collisions=0/37=0%
+# Finished Make data base on Thu Aug 18 18:40:38 2022
+
+ 
