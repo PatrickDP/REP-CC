@@ -1,9 +1,0 @@
-make.exe --dry-run --always-make --keep-going --print-directory
-make: Entering directory 'c:/Users/patri/OneDrive/Documentos/Facul/OSA/Atividade Pr�tica 1/Atividade Pr�tica 1 (Parte 1)'
-g++ -Wall -Wextra -std=c++17 -pedantic-errors -c main.cpp
-g++ -Wall -Wextra -std=c++17 -pedantic-errors -c Client.cpp
-g++ -Wall -Wextra -std=c++17 -pedantic-errors -c MyFile.cpp
-g++ -Wall -Wextra -std=c++17 -pedantic-errors main.o Client.o MyFile.o -o main.exe -lm
-echo Compiling 'all' completed!
-make: Leaving directory 'c:/Users/patri/OneDrive/Documentos/Facul/OSA/Atividade Pr�tica 1/Atividade Pr�tica 1 (Parte 1)'
- 

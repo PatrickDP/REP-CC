@@ -1,0 +1,8 @@
+Função apagaNodo(): Faz a chama recursiva e, apaga recursivamente cada nodo das sub-árvores da esquerda e da direita e no final, apaga a raiz. Desempilha os nodos
+aqueles que tem ponteiros esquerdo e direito apontados para NULL.
+Função préOrdem(): Visita e imprime os nodos, faz a chamada recursiva da esquerda para a direita.
+Função pósOrdem(): Faz a chamada recursiva da esquerda para a direita, começando primeiramente pelo nodos da esquerda e, logo apóos o nodos da direita que
+por fim, visita e imprime os nodos.
+
+
+imprime : 8

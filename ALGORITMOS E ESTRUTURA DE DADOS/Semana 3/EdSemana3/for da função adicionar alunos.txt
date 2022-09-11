@@ -1,0 +1,24 @@
+0 1 2 3
+
+posicao a ser inserida = 0 | elemento = x
+
+0 1 2 3
+a b c d
+
+[pecorrendo o for]
+
+a b c d 0
+a b c d d (dados[4] = dados[3])
+a b c c d
+a b b c d
+a a b c d
+
+[fora do for]
+
+dados[0] = x;
+
+||
+||
+\/
+
+x a b c d

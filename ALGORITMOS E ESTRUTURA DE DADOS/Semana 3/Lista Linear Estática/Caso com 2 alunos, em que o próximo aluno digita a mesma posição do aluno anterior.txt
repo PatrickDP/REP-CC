@@ -1,0 +1,36 @@
+20, Patrick (Chave, e Nome)
+0, a1 (Posicao na lista, e passagem do obejto como parametro)
+
+## DENTRO DA FUNÇÃO INSERE ##
+
+for(unsigned i = tamanho; i > posicao_Lista; i--)
+   tamanho = 0;
+   i = tamanho ~ i =0 | 0 > 0 (Falso - instrução para)
+
+alunos[posicao_Lista] = aluno; (alunos[0] = aluno) // Escreve novo aluno
+tamanho++ ~ tamanho = 1;
+
+-
+
+17, David (Chave, e Nome)
+0, a2 (Posicao na lista, e passagem do objeto como parametro)
+
+## DENTRO DA FUNÇÃO INSERE ##
+
+for(unsigned i = tamanho; i > posicao_Lista; i--)
+   tamanho = 1;
+   i = tamanho ~ i = 1 | 1 > 0 (Verdadeiro - instrução executa)
+   alunos[i] = alunos[i-1]; 
+   alunos[1] = alunos[0] ([1] - 0 = [0] - 20 ~ [1] = 20 - [0] - 0 )
+   20 - 0 - "..." --> 0 - 20 - "..."
+   (O conteúdo da posição 1 receberá o conteúdo da posição 0, logo
+   o conteúdo que antes era da posição 0, está na posição 1)
+
+alunos[posicao_Lista] = aluno; (alunos[0] = aluno) // Escreve novo aluno que neste cas é david
+tamanho++ ~ tamanho = 1;
+
+## VOLTANDO PARA MAIN ##
+
+lista.imprime_Alunos_Lista();
+
+vai imprimir os dados de David consecutivamente com os dados de Patrick.

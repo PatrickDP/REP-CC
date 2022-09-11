@@ -1,0 +1,261 @@
+Exemplo de recursão: Fatorial
+
+5! = ?
+
+
+if( 5 != 0)
+	[return 5 * fun(5-1)] <-----.
+if(4 != 0)                          |
+	[return 4 * fun(4-1)] <-----|
+if(3 != 0)                          |
+	[return 3 * fun(3-1)] <-----|
+if(2 != 0)                          |
+	[return 2 * fun(2-1)] <-----|       
+if(1 != 0)                          | 
+	[return 1 * fun(1-1)] <-----|
+if(0 == 0)                          |
+	[return 1] -----------------. 
+
+ ||
+ ||
+\  /
+ \/
+
+[return 1]
+[return 1 * fun(1)]
+[return 2 * fun(1)]
+[return 3 * fun(2)]
+[return 4 * fun(6)]
+[return 5 * fun(24)]
+
+5 * 24 = 120
+
+5! = 120
+
+
+int fatorialRec(int n)
+{
+ if(n == 0)
+  return 1;
+ else
+ {
+  return n * fatorial(n - 1);
+ }
+}
+
+n = 5
+
+=================================
+
+chamada recursiva e empilhando
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(5 - 1);
+ }
+}
+int fatorialRec(int 4)
+{
+ if(4 == 0)
+  return 1;
+ else
+ {
+  return 4 * fatorial(4 - 1);
+ }
+}
+int fatorialRec(int 3)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 3 * fatorial(3 - 1);
+ }
+}
+int fatorialRec(int 2)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 2 * fatorial(2 - 1);
+ }
+}
+int fatorialRec(int 1)
+{
+ if(1 == 0)
+  return 1;
+ else
+ {
+  return 1 * fatorial(1 - 1);
+ }
+}
+int fatorialRec(int 1)
+{
+ if(0 == 0) <---
+  return 1;
+ else
+ {
+  return 0 * fatorial(0 - 1);
+ }
+}
+
+================================
+
+desempilhando
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(5 - 1);
+ }
+}
+int fatorialRec(int 4)
+{
+ if(4 == 0)
+  return 1;
+ else
+ {
+  return 4 * fatorial(4 - 1);
+ }
+}
+int fatorialRec(int 3)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 3 * fatorial(3 - 1);
+ }
+}
+int fatorialRec(int 2)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 2 * fatorial(2 - 1);
+ }
+}
+int fatorialRec(int 1)
+{
+ if(1 == 0)
+  return 1;
+ else
+ {
+  return 1 * fatorial(1);
+ }
+}
+
+================================
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(5 - 1);
+ }
+}
+int fatorialRec(int 4)
+{
+ if(4 == 0)
+  return 1;
+ else
+ {
+  return 4 * fatorial(4 - 1);
+ }
+}
+int fatorialRec(int 3)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 3 * fatorial(3 - 1);
+ }
+}
+int fatorialRec(int 2)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 2 * fatorial(1);
+ }
+}
+
+================================
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(5 - 1);
+ }
+}
+int fatorialRec(int 4)
+{
+ if(4 == 0)
+  return 1;
+ else
+ {
+  return 4 * fatorial(4 - 1);
+ }
+}
+int fatorialRec(int 3)
+{
+ if(3 == 0)
+  return 1;
+ else
+ {
+  return 3 * fatorial(2);
+ }
+}
+
+================================
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(5 - 1);
+ }
+}
+int fatorialRec(int 4)
+{
+ if(4 == 0)
+  return 1;
+ else
+ {
+  return 4 * fatorial(6);
+ }
+}
+
+================================
+
+int fatorialRec(int 5)
+{
+ if(5 == 0)
+  return 1;
+ else
+ {
+  return 5 * fatorial(24);
+ }
+}
+
+================================
+
+5! = 120;

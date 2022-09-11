@@ -1,0 +1,3 @@
+Pilha - LIFO (Last in / First Out): Último a entrar e Primeiro a sair.  Inclusão ocorre na base e Exclusão ocorre no topo
+Fila  - FIFO (First in / First Out) :  Primeiro a entrar e o Primeiro a sair. Inclusão e Exclusão ocorrem no topo.
+ 

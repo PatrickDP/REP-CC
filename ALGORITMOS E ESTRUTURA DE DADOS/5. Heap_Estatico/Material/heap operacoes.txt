@@ -1,0 +1,5 @@
+OPERAÇÕES FEITAS NO HEAP
+
+- Inserido: 20,80,40,50,10,25,35,60,45
+
+Removendo elemento de maior prioridade: 80

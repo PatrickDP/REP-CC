@@ -1,0 +1,48 @@
+[ PERCURSO PRÉ ORDEM E PÓS ORDEM ]
+
+árvore:
+
+	(5)
+	/ \
+      (3) (9)
+      /    /
+    (1)  (8)
+	 /
+       (7)
+
+pré ordem:
+
+imprime: [ 5 ]
+
+ponteiroEsquerdo != NULL
+
+== CHAMADA RECURSIVA ==
+
+imprime: [ 3 ]
+
+piha: [ 3 ]
+
+imprime: [ 1 ]
+
+pilha: [ 3 ]
+       [ 1 ]
+
+ponteiroEsquerdo == NULL . . .
+
+Desempilha !
+
+[ 3 ] --> [ X ]
+[ X ]
+
+ponteiroDireito != NULL
+
+== CHAMADA RECURSIVA == 
+
+imprime: [ 9 ]
+
+pilha: [ 9 ]
+
+imprime: [ 9 ]
+         
+
+
