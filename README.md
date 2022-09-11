@@ -9,7 +9,7 @@ Aqui será listado cada disciplina com os trabalhos desenvolvidos.
 3. <a href="https://github.com/PatrickDP/REP-CC/tree/main/F%C3%8DSICA%20CL%C3%81SSICA"> Física Clássica para Computação (2021); </a><br>
 4. <a href="https://github.com/PatrickDP/REP-CC/tree/main/BUSCA%20E%20ORDENA%C3%87%C3%83O"> Técnica de Busca e Ordenação (2022); </a><br>
 5. <a href="https://github.com/PatrickDP/REP-CC/tree/main/SISTEMA%20DE%20INFORMA%C3%87%C3%83O"> Sistemas de Informação (2022); </a><br>
-6. <a href="https://github.com/PatrickDP/REP-CC/tree/main/PDI"> Processamento Digital de Imagens (2022); </a><br>
-7. <a href="https://github.com/PatrickDP/REP-CC/tree/main/OSA"> Organização e Sistemas de Arquivos (2022); </a><br>**
+6. <https://github.com/PatrickDP/REP-CC/tree/main/PROCESSAMENTO%20DIGITAL%20DE%20IMAGENS"> Processamento Digital de Imagens (2022); </a><br>
+7. <a href="https://github.com/PatrickDP/REP-CC/tree/main/ORGANIZA%C3%87%C3%83O%20E%20SISTEMAS%20DE%20ARQUIVOS/Atividade%20Pr%C3%A1tica%201"> Organização e Sistemas de Arquivos (2022); </a><br>**
 
 
