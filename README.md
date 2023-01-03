@@ -10,6 +10,6 @@ Aqui será listado cada disciplina com os trabalhos desenvolvidos.
 4. <a href="https://github.com/PatrickDP/REP-CC/tree/main/BUSCA%20E%20ORDENA%C3%87%C3%83O"> Técnica de Busca e Ordenação (2022); </a><br>
 5. <a href="https://github.com/PatrickDP/REP-CC/tree/main/SISTEMA%20DE%20INFORMA%C3%87%C3%83O"> Sistemas de Informação (2022); </a><br>
 6. <a href="https://github.com/PatrickDP/REP-CC/tree/main/PROCESSAMENTO%20DIGITAL%20DE%20IMAGENS"> Processamento Digital de Imagens (2022); </a><br>
-7. <a href="https://github.com/PatrickDP/REP-CC/tree/main/ORGANIZA%C3%87%C3%83O%20E%20SISTEMAS%20DE%20ARQUIVOS"> Organização e Sistemas de Arquivos (2022); </a><br>**
+7. <a href="https://github.com/PatrickDP/REP-CC/tree/main/ORGANIZA%C3%87%C3%83O%20E%20SISTEMAS%20DE%20ARQUIVOS"> Organização e Sistemas de Arquivos (2022); </a><br> (NÃO ESTÁ 100% COMPLETO E CORRETO)**
 
 
