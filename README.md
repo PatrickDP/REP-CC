@@ -1,6 +1,6 @@
 # CIÊNCIA DA COMPUTAÇÃO - ATIVIDADES DESENVOLVIDAS DURANTE O CURSO 👨‍💻
 
-Repositório contendo todas as atividades das disciplinas de programação presentes no curso de **Ciência da Computação** do IFNMG.
+Repositório contendo todas as atividades e projetos simples das disciplinas de programação presentes no curso de **Ciência da Computação** do IFNMG.
 
 Aqui será listado cada disciplina com os trabalhos desenvolvidos.
 
